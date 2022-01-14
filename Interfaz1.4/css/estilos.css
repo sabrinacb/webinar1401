@@ -6,8 +6,19 @@
 }
 
 
-body { font-family: 'Roboto', sans-serif; font-weight: 400;}
-h1 {font-family:miFuente;}
+body { font-family: 'Roboto', sans-serif; font-weight: 400;
+color:#04146c;}
 
+h1 {font-family:miFuente; font-size: 90px; }
+h2 { font-size:32px;}
+h1,h2 { color: #0a2ff1;}
+div { background-color: #eff2ff; width: 20%; padding:1em;box-sizing: border-box; text-align: center; border-radius: 10px;}
+section {display: flex; justify-content:space-between;}
 
+@media (max-width:768px){
+
+section { flex-direction: column;}
+div { width: 100%;}
+
+}
 
